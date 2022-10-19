@@ -1,23 +1,16 @@
-import logo from './logo.svg';
+import MainDashboard from './Components/MainDashboard'
+import StatusDashboard from './Components/StatusDashboard';
 import './App.css';
+import {Data} from './Data/Data'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App light-mode" id="App">
+      <div className='app-container'>
+        <MainDashboard data={Data}/>
+        <StatusDashboard data={Data}/>
+      </div>
+
     </div>
   );
 }
