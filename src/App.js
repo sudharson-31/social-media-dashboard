@@ -5,7 +5,7 @@ import {Data} from './Data/Data'
 
 function App() {
   return (
-    <div className="App light-mode" id="App">
+    <div className="App dark-mode" id="App">
       <div className='app-container'>
         <MainDashboard data={Data}/>
         <StatusDashboard data={Data}/>

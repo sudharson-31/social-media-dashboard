@@ -1,23 +1,19 @@
-//import '../Styles/toggle.css';
-import { useState } from "react";
+
 export default function Header({followerCount}) {
-    const App = document.getElementById("App");
-    const preferenceQuery = window.matchMedia("(prefers-color-scheme: dark)");
-    const [darkMode,setMode] = useState(false);
     function switcher(){
-        setMode(!darkMode);
+        const App = document.getElementById("App");
         if(App.classList.contains("dark-mode")){
             App.classList.remove("dark-mode");
             App.classList.add("light-mode");
 
         }
-        //if(App.classList.contains("light-mode")){
-        else{
+        else if(App.classList.contains("light-mode")){
             App.classList.remove("light-mode");
             App.classList.add("dark-mode");
         }
         
     }
+
     return (
         <div id="Header">
             <div>
