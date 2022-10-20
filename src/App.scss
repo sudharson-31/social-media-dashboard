@@ -21,7 +21,7 @@ body{
 }
 .app-container{
     width: 80%;
-    padding: 3%;
+    //padding: 3% 0% 3% 0%;
 }
 #Dashboard{
     width: 100%;
@@ -55,10 +55,10 @@ body{
     }
     .indi-app{
         display: flex;
-        width: 45%;
-        margin-left: 5%;
+        width: 50%;
+        margin-left: 3%;
         align-items: center;
-        gap: 10%;
+        gap: 8%;
         padding-top: 5%;
     }
     .followerCount{
@@ -67,7 +67,7 @@ body{
         flex-direction: column;
         justify-content: center;
         padding-block: 5%;
-        font-size: 4em;
+        font-size: 3em;
         font-weight: 700;
         div{
             font-size: 0.25em;
@@ -113,7 +113,7 @@ body{
         cursor: pointer;
         .statusParam{
             display: flex;
-            font-size: 0.9em;
+            font-size: 0.8em;
             letter-spacing: 1px;
             text-transform: capitalize;
             justify-content: space-between;
@@ -126,14 +126,14 @@ body{
             justify-content: space-between;
             align-items: center;
             .statusCount{
-                font-size: 2em;
+                font-size: 1.3em;
                 font-weight: 700;
             }
             .status-right{
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                font-size: 0.9em;
+                font-size: 0.7em;
                 gap: 10%;
                 font-weight: 700;
                 .statusPercentIndi{

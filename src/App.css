@@ -38,7 +38,6 @@ body {
 
 .app-container {
   width: 80%;
-  padding: 3%;
 }
 
 #Dashboard {
@@ -96,12 +95,12 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 45%;
-  margin-left: 5%;
+  width: 50%;
+  margin-left: 3%;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 10%;
+  gap: 8%;
   padding-top: 5%;
 }
 
@@ -120,7 +119,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   padding-block: 5%;
-  font-size: 4em;
+  font-size: 3em;
   font-weight: 700;
 }
 
@@ -190,7 +189,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-size: 0.9em;
+  font-size: 0.8em;
   letter-spacing: 1px;
   text-transform: capitalize;
   -webkit-box-pack: justify;
@@ -214,7 +213,7 @@ body {
 }
 
 #Status-Dashboard .miniCard .statusValue .statusCount {
-  font-size: 2em;
+  font-size: 1.3em;
   font-weight: 700;
 }
 
@@ -228,7 +227,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-size: 0.9em;
+  font-size: 0.7em;
   gap: 10%;
   font-weight: 700;
 }
